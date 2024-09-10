@@ -7,6 +7,7 @@ class laptop():
         self.price=price
     def getprice(self):
         print(self.price)
+        #instead of this we use class method and static method
     @classmethod
     def changecharge(cls):
         cls.charge="B Type"
